@@ -21,3 +21,5 @@ For a deployed build that connects to Supabase, add these repository secrets und
 
 - `VITE_SUPABASE_URL`
 - `VITE_SUPABASE_PUBLISHABLE_KEY`
+
+Run `supabase/schema.sql` in the Supabase SQL Editor before enabling users. It creates the content history tables and their Row Level Security policies.
